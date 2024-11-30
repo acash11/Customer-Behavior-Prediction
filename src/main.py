@@ -1,0 +1,3 @@
+import cbpa
+
+cbpa.test()
