@@ -35,6 +35,6 @@ df['Previous Purchases'] = (df['Previous Purchases'] - df['Previous Purchases'].
 
 print(df)
 
-output_file = '../processed/shopping_trends_processed.csv'
+output_file = '../../processed/shopping_trends_processed.csv'
 df.to_csv(output_file, index=False)
 

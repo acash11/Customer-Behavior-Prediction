@@ -48,7 +48,7 @@ df["Hobby"] = hobbies
 print(df)
 
 # Output to a CSV file
-output_file = "test_cluster_data.csv"
+output_file = 'test_cluster_data/test_cluster_data.csv'
 df.to_csv(output_file, index=False)
 
 print(f"test data for clustering saved to {output_file}")

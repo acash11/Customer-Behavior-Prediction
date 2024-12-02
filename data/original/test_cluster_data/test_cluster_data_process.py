@@ -19,7 +19,7 @@ df["Customer ID"] = [i for i in range(0,1000)]
 
 print(df)
 # Output to a CSV file
-output_file = '../processed/test_cluster_data_processed.csv'
+output_file = '../../processed/test_cluster_data_processed.csv'
 df.to_csv(output_file, index=False)
 
 print(f"test data for clustering saved to {output_file}")
