@@ -5,4 +5,5 @@ from .dbscan import *
 from .hierarchical import *
 from .kmeans_initialized import *
 from .kmeans_random import *
-from .supervised_ml import *
+from .predefined_ml import *
+from .association_rules import *
