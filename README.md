@@ -12,3 +12,12 @@ Customer Behavior Analysis and Prediction; Contains the clustering modules to be
 Contains the modules for evaluating the quality of clusters; Called by main.py
 ### tests
 Test functions for clustering and evaluation modules
+
+## requirements
+### programs
+- python ver 3+
+### packages
+- scikit-learn
+- numpy
+- pandas
+- matplotlib
