@@ -1,126 +1,119 @@
 ,support,itemsets
-0,0.2065063649222065,frozenset({'2-3'})
-1,0.3620933521923621,frozenset({'20-39'})
-2,0.41725601131541723,frozenset({'3-4'})
-3,0.37623762376237624,frozenset({'4+'})
-4,0.4045261669024045,frozenset({'40-59'})
-5,0.20226308345120225,frozenset({'60+'})
-6,0.2956152758132956,frozenset({'Accessories'})
-7,0.2857142857142857,frozenset({'Bank Transfer'})
-8,0.314002828854314,frozenset({'Cash'})
-9,0.4611032531824611,frozenset({'Clothing'})
-10,0.32531824611032534,frozenset({'Credit Card'})
-11,0.3026874115983027,frozenset({'Debit Card'})
-12,0.22347949080622348,frozenset({'Fall'})
-13,0.30834512022630833,frozenset({'Female'})
-14,0.25176803394625175,frozenset({'L'})
-15,0.4625176803394625,frozenset({'M'})
-16,0.6916548797736917,frozenset({'Male'})
-17,0.5657708628005658,frozenset({'NoDisco'})
-18,0.5657708628005658,frozenset({'NoPromo'})
-19,0.7114568599717115,frozenset({'NoSubscr'})
-20,0.3125884016973126,frozenset({'PayPal'})
-21,0.26732673267326734,frozenset({'Spring'})
-22,0.24611032531824611,frozenset({'Summer'})
-23,0.2871287128712871,frozenset({'Venmo'})
-24,0.26308345120226306,frozenset({'Winter'})
-25,0.43422913719943423,frozenset({'YesDisco'})
-26,0.43422913719943423,frozenset({'YesPromo'})
-27,0.28854314002828857,frozenset({'YesSubscr'})
-28,0.256011315417256,"frozenset({'20-39', 'Male'})"
-29,0.20933521923620935,"frozenset({'20-39', 'NoDisco'})"
-30,0.20933521923620935,"frozenset({'20-39', 'NoPromo'})"
-31,0.26874115983026875,"frozenset({'20-39', 'NoSubscr'})"
-32,0.2065063649222065,"frozenset({'3-4', 'Clothing'})"
-33,0.2984441301272984,"frozenset({'3-4', 'Male'})"
-34,0.2248939179632249,"frozenset({'3-4', 'NoDisco'})"
-35,0.2248939179632249,"frozenset({'3-4', 'NoPromo'})"
-36,0.2984441301272984,"frozenset({'3-4', 'NoSubscr'})"
-37,0.26166902404526166,"frozenset({'Male', '4+'})"
-38,0.21782178217821782,"frozenset({'NoDisco', '4+'})"
-39,0.21782178217821782,"frozenset({'NoPromo', '4+'})"
-40,0.26591230551626593,"frozenset({'NoSubscr', '4+'})"
-41,0.28005657708628007,"frozenset({'Male', '40-59'})"
-42,0.22772277227722773,"frozenset({'NoDisco', '40-59'})"
-43,0.22772277227722773,"frozenset({'NoPromo', '40-59'})"
-44,0.2814710042432815,"frozenset({'NoSubscr', '40-59'})"
-45,0.20226308345120225,"frozenset({'Accessories', 'Male'})"
-46,0.2065063649222065,"frozenset({'Accessories', 'NoSubscr'})"
-47,0.20226308345120225,"frozenset({'Bank Transfer', 'Male'})"
-48,0.2065063649222065,"frozenset({'Cash', 'Male'})"
-49,0.22772277227722773,"frozenset({'Cash', 'NoSubscr'})"
-50,0.20933521923620935,"frozenset({'M', 'Clothing'})"
-51,0.32390381895332393,"frozenset({'Male', 'Clothing'})"
-52,0.27157001414427157,"frozenset({'NoDisco', 'Clothing'})"
-53,0.27157001414427157,"frozenset({'NoPromo', 'Clothing'})"
-54,0.3352192362093352,"frozenset({'NoSubscr', 'Clothing'})"
-55,0.2248939179632249,"frozenset({'Credit Card', 'Male'})"
-56,0.2376237623762376,"frozenset({'Credit Card', 'NoSubscr'})"
-57,0.21923620933521923,"frozenset({'Male', 'Debit Card'})"
-58,0.21216407355021216,"frozenset({'NoSubscr', 'Debit Card'})"
-59,0.30834512022630833,"frozenset({'Female', 'NoDisco'})"
-60,0.30834512022630833,"frozenset({'NoPromo', 'Female'})"
-61,0.30834512022630833,"frozenset({'Female', 'NoSubscr'})"
-62,0.32248939179632247,"frozenset({'M', 'Male'})"
-63,0.24752475247524752,"frozenset({'M', 'NoDisco'})"
-64,0.24752475247524752,"frozenset({'M', 'NoPromo'})"
-65,0.33097595473833097,"frozenset({'M', 'NoSubscr'})"
-66,0.214992927864215,"frozenset({'YesDisco', 'M'})"
-67,0.214992927864215,"frozenset({'YesPromo', 'M'})"
-68,0.25742574257425743,"frozenset({'Male', 'NoDisco'})"
-69,0.25742574257425743,"frozenset({'NoPromo', 'Male'})"
-70,0.4031117397454031,"frozenset({'Male', 'NoSubscr'})"
-71,0.2164073550212164,"frozenset({'PayPal', 'Male'})"
-72,0.43422913719943423,"frozenset({'YesDisco', 'Male'})"
-73,0.43422913719943423,"frozenset({'YesPromo', 'Male'})"
-74,0.28854314002828857,"frozenset({'YesSubscr', 'Male'})"
-75,0.5657708628005658,"frozenset({'NoPromo', 'NoDisco'})"
-76,0.5657708628005658,"frozenset({'NoDisco', 'NoSubscr'})"
-77,0.5657708628005658,"frozenset({'NoPromo', 'NoSubscr'})"
-78,0.214992927864215,"frozenset({'PayPal', 'NoSubscr'})"
-79,0.2036775106082037,"frozenset({'Venmo', 'NoSubscr'})"
-80,0.43422913719943423,"frozenset({'YesDisco', 'YesPromo'})"
-81,0.28854314002828857,"frozenset({'YesDisco', 'YesSubscr'})"
-82,0.28854314002828857,"frozenset({'YesPromo', 'YesSubscr'})"
-83,0.20933521923620935,"frozenset({'20-39', 'NoPromo', 'NoDisco'})"
-84,0.20933521923620935,"frozenset({'20-39', 'NoDisco', 'NoSubscr'})"
-85,0.20933521923620935,"frozenset({'20-39', 'NoPromo', 'NoSubscr'})"
-86,0.2248939179632249,"frozenset({'3-4', 'NoPromo', 'NoDisco'})"
-87,0.2248939179632249,"frozenset({'3-4', 'NoDisco', 'NoSubscr'})"
-88,0.2248939179632249,"frozenset({'3-4', 'NoPromo', 'NoSubscr'})"
-89,0.21782178217821782,"frozenset({'NoPromo', 'NoDisco', '4+'})"
-90,0.21782178217821782,"frozenset({'NoDisco', '4+', 'NoSubscr'})"
-91,0.21782178217821782,"frozenset({'NoPromo', 'NoSubscr', '4+'})"
-92,0.22772277227722773,"frozenset({'NoPromo', 'NoDisco', '40-59'})"
-93,0.22772277227722773,"frozenset({'NoDisco', '40-59', 'NoSubscr'})"
-94,0.22772277227722773,"frozenset({'NoPromo', 'NoSubscr', '40-59'})"
-95,0.27157001414427157,"frozenset({'NoPromo', 'NoDisco', 'Clothing'})"
-96,0.27157001414427157,"frozenset({'NoDisco', 'Clothing', 'NoSubscr'})"
-97,0.27157001414427157,"frozenset({'NoPromo', 'NoSubscr', 'Clothing'})"
-98,0.30834512022630833,"frozenset({'NoPromo', 'NoDisco', 'Female'})"
-99,0.30834512022630833,"frozenset({'Female', 'NoDisco', 'NoSubscr'})"
-100,0.30834512022630833,"frozenset({'NoPromo', 'NoSubscr', 'Female'})"
-101,0.214992927864215,"frozenset({'YesDisco', 'M', 'Male'})"
-102,0.214992927864215,"frozenset({'YesPromo', 'M', 'Male'})"
-103,0.24752475247524752,"frozenset({'M', 'NoPromo', 'NoDisco'})"
-104,0.24752475247524752,"frozenset({'M', 'NoDisco', 'NoSubscr'})"
-105,0.24752475247524752,"frozenset({'M', 'NoPromo', 'NoSubscr'})"
-106,0.214992927864215,"frozenset({'YesDisco', 'M', 'YesPromo'})"
-107,0.25742574257425743,"frozenset({'NoPromo', 'Male', 'NoDisco'})"
-108,0.25742574257425743,"frozenset({'Male', 'NoDisco', 'NoSubscr'})"
-109,0.25742574257425743,"frozenset({'NoPromo', 'Male', 'NoSubscr'})"
-110,0.43422913719943423,"frozenset({'YesDisco', 'Male', 'YesPromo'})"
-111,0.28854314002828857,"frozenset({'YesDisco', 'YesSubscr', 'Male'})"
-112,0.28854314002828857,"frozenset({'YesPromo', 'YesSubscr', 'Male'})"
-113,0.5657708628005658,"frozenset({'NoPromo', 'NoDisco', 'NoSubscr'})"
-114,0.28854314002828857,"frozenset({'YesDisco', 'YesSubscr', 'YesPromo'})"
-115,0.20933521923620935,"frozenset({'20-39', 'NoPromo', 'NoSubscr', 'NoDisco'})"
-116,0.2248939179632249,"frozenset({'3-4', 'NoPromo', 'NoDisco', 'NoSubscr'})"
-117,0.21782178217821782,"frozenset({'NoPromo', 'NoDisco', '4+', 'NoSubscr'})"
-118,0.22772277227722773,"frozenset({'NoPromo', 'NoDisco', '40-59', 'NoSubscr'})"
-119,0.27157001414427157,"frozenset({'NoPromo', 'NoDisco', 'Clothing', 'NoSubscr'})"
-120,0.30834512022630833,"frozenset({'NoPromo', 'NoDisco', 'Female', 'NoSubscr'})"
-121,0.214992927864215,"frozenset({'YesDisco', 'M', 'Male', 'YesPromo'})"
-122,0.24752475247524752,"frozenset({'M', 'NoPromo', 'NoDisco', 'NoSubscr'})"
-123,0.25742574257425743,"frozenset({'NoPromo', 'Male', 'NoDisco', 'NoSubscr'})"
-124,0.28854314002828857,"frozenset({'YesDisco', 'YesSubscr', 'Male', 'YesPromo'})"
+0,0.229064039408867,frozenset({'2-3'})
+1,0.3497536945812808,frozenset({'20-39'})
+2,0.39408866995073893,frozenset({'3-4'})
+3,0.3768472906403941,frozenset({'4+'})
+4,0.41133004926108374,frozenset({'40-59'})
+5,0.30295566502463056,frozenset({'Accessories'})
+6,0.270935960591133,frozenset({'Bank Transfer'})
+7,0.27832512315270935,frozenset({'Cash'})
+8,0.4433497536945813,frozenset({'Clothing'})
+9,0.33497536945812806,frozenset({'Credit Card'})
+10,0.30049261083743845,frozenset({'Debit Card'})
+11,0.2561576354679803,frozenset({'Fall'})
+12,0.312807881773399,frozenset({'Female'})
+13,0.24630541871921183,frozenset({'L'})
+14,0.4827586206896552,frozenset({'M'})
+15,0.687192118226601,frozenset({'Male'})
+16,0.5591133004926109,frozenset({'NoDisco'})
+17,0.5591133004926109,frozenset({'NoPromo'})
+18,0.7216748768472906,frozenset({'NoSubscr'})
+19,0.29310344827586204,frozenset({'PayPal'})
+20,0.23891625615763548,frozenset({'Spring'})
+21,0.2019704433497537,frozenset({'Summer'})
+22,0.3275862068965517,frozenset({'Venmo'})
+23,0.30295566502463056,frozenset({'Winter'})
+24,0.4408866995073892,frozenset({'YesDisco'})
+25,0.4408866995073892,frozenset({'YesPromo'})
+26,0.27832512315270935,frozenset({'YesSubscr'})
+27,0.24876847290640394,"frozenset({'20-39', 'Male'})"
+28,0.2438423645320197,"frozenset({'NoSubscr', '20-39'})"
+29,0.2684729064039409,"frozenset({'Male', '3-4'})"
+30,0.20689655172413793,"frozenset({'NoDisco', '3-4'})"
+31,0.20689655172413793,"frozenset({'3-4', 'NoPromo'})"
+32,0.28078817733990147,"frozenset({'NoSubscr', '3-4'})"
+33,0.2561576354679803,"frozenset({'4+', 'Male'})"
+34,0.229064039408867,"frozenset({'NoDisco', '4+'})"
+35,0.229064039408867,"frozenset({'4+', 'NoPromo'})"
+36,0.270935960591133,"frozenset({'NoSubscr', '4+'})"
+37,0.29310344827586204,"frozenset({'40-59', 'Male'})"
+38,0.23645320197044334,"frozenset({'NoDisco', '40-59'})"
+39,0.23645320197044334,"frozenset({'40-59', 'NoPromo'})"
+40,0.29310344827586204,"frozenset({'NoSubscr', '40-59'})"
+41,0.20935960591133004,"frozenset({'Male', 'Accessories'})"
+42,0.229064039408867,"frozenset({'NoSubscr', 'Accessories'})"
+43,0.21182266009852216,"frozenset({'NoSubscr', 'Bank Transfer'})"
+44,0.21674876847290642,"frozenset({'Clothing', 'M'})"
+45,0.3078817733990148,"frozenset({'Clothing', 'Male'})"
+46,0.24630541871921183,"frozenset({'NoDisco', 'Clothing'})"
+47,0.24630541871921183,"frozenset({'Clothing', 'NoPromo'})"
+48,0.3251231527093596,"frozenset({'NoSubscr', 'Clothing'})"
+49,0.22660098522167488,"frozenset({'Credit Card', 'Male'})"
+50,0.24876847290640394,"frozenset({'NoSubscr', 'Credit Card'})"
+51,0.20689655172413793,"frozenset({'Debit Card', 'Male'})"
+52,0.21921182266009853,"frozenset({'NoSubscr', 'Debit Card'})"
+53,0.312807881773399,"frozenset({'NoDisco', 'Female'})"
+54,0.312807881773399,"frozenset({'Female', 'NoPromo'})"
+55,0.312807881773399,"frozenset({'NoSubscr', 'Female'})"
+56,0.3226600985221675,"frozenset({'Male', 'M'})"
+57,0.25862068965517243,"frozenset({'NoDisco', 'M'})"
+58,0.25862068965517243,"frozenset({'M', 'NoPromo'})"
+59,0.3399014778325123,"frozenset({'NoSubscr', 'M'})"
+60,0.22413793103448276,"frozenset({'YesDisco', 'M'})"
+61,0.22413793103448276,"frozenset({'YesPromo', 'M'})"
+62,0.24630541871921183,"frozenset({'NoDisco', 'Male'})"
+63,0.24630541871921183,"frozenset({'Male', 'NoPromo'})"
+64,0.4088669950738916,"frozenset({'NoSubscr', 'Male'})"
+65,0.2019704433497537,"frozenset({'PayPal', 'Male'})"
+66,0.23399014778325122,"frozenset({'Venmo', 'Male'})"
+67,0.20935960591133004,"frozenset({'Male', 'Winter'})"
+68,0.4408866995073892,"frozenset({'YesDisco', 'Male'})"
+69,0.4408866995073892,"frozenset({'YesPromo', 'Male'})"
+70,0.27832512315270935,"frozenset({'Male', 'YesSubscr'})"
+71,0.5591133004926109,"frozenset({'NoDisco', 'NoPromo'})"
+72,0.5591133004926109,"frozenset({'NoDisco', 'NoSubscr'})"
+73,0.5591133004926109,"frozenset({'NoSubscr', 'NoPromo'})"
+74,0.20935960591133004,"frozenset({'NoSubscr', 'PayPal'})"
+75,0.2315270935960591,"frozenset({'NoSubscr', 'Venmo'})"
+76,0.22167487684729065,"frozenset({'NoSubscr', 'Winter'})"
+77,0.4408866995073892,"frozenset({'YesDisco', 'YesPromo'})"
+78,0.27832512315270935,"frozenset({'YesDisco', 'YesSubscr'})"
+79,0.27832512315270935,"frozenset({'YesPromo', 'YesSubscr'})"
+80,0.20689655172413793,"frozenset({'NoDisco', '3-4', 'NoPromo'})"
+81,0.20689655172413793,"frozenset({'NoDisco', 'NoSubscr', '3-4'})"
+82,0.20689655172413793,"frozenset({'NoSubscr', '3-4', 'NoPromo'})"
+83,0.229064039408867,"frozenset({'NoDisco', '4+', 'NoPromo'})"
+84,0.229064039408867,"frozenset({'NoDisco', 'NoSubscr', '4+'})"
+85,0.229064039408867,"frozenset({'NoSubscr', '4+', 'NoPromo'})"
+86,0.23645320197044334,"frozenset({'NoDisco', '40-59', 'NoPromo'})"
+87,0.23645320197044334,"frozenset({'NoDisco', 'NoSubscr', '40-59'})"
+88,0.23645320197044334,"frozenset({'NoSubscr', '40-59', 'NoPromo'})"
+89,0.24630541871921183,"frozenset({'NoDisco', 'Clothing', 'NoPromo'})"
+90,0.24630541871921183,"frozenset({'NoDisco', 'NoSubscr', 'Clothing'})"
+91,0.24630541871921183,"frozenset({'NoSubscr', 'Clothing', 'NoPromo'})"
+92,0.312807881773399,"frozenset({'NoDisco', 'Female', 'NoPromo'})"
+93,0.312807881773399,"frozenset({'NoDisco', 'NoSubscr', 'Female'})"
+94,0.312807881773399,"frozenset({'NoSubscr', 'Female', 'NoPromo'})"
+95,0.22413793103448276,"frozenset({'YesDisco', 'Male', 'M'})"
+96,0.22413793103448276,"frozenset({'YesPromo', 'Male', 'M'})"
+97,0.25862068965517243,"frozenset({'NoDisco', 'M', 'NoPromo'})"
+98,0.25862068965517243,"frozenset({'NoDisco', 'NoSubscr', 'M'})"
+99,0.25862068965517243,"frozenset({'NoSubscr', 'M', 'NoPromo'})"
+100,0.22413793103448276,"frozenset({'YesDisco', 'YesPromo', 'M'})"
+101,0.24630541871921183,"frozenset({'NoDisco', 'Male', 'NoPromo'})"
+102,0.24630541871921183,"frozenset({'NoDisco', 'NoSubscr', 'Male'})"
+103,0.24630541871921183,"frozenset({'NoSubscr', 'Male', 'NoPromo'})"
+104,0.4408866995073892,"frozenset({'YesPromo', 'YesDisco', 'Male'})"
+105,0.27832512315270935,"frozenset({'YesDisco', 'Male', 'YesSubscr'})"
+106,0.27832512315270935,"frozenset({'YesPromo', 'Male', 'YesSubscr'})"
+107,0.5591133004926109,"frozenset({'NoDisco', 'NoSubscr', 'NoPromo'})"
+108,0.27832512315270935,"frozenset({'YesDisco', 'YesPromo', 'YesSubscr'})"
+109,0.20689655172413793,"frozenset({'NoDisco', 'NoSubscr', '3-4', 'NoPromo'})"
+110,0.229064039408867,"frozenset({'NoDisco', 'NoSubscr', '4+', 'NoPromo'})"
+111,0.23645320197044334,"frozenset({'NoDisco', 'NoSubscr', '40-59', 'NoPromo'})"
+112,0.24630541871921183,"frozenset({'NoDisco', 'NoSubscr', 'Clothing', 'NoPromo'})"
+113,0.312807881773399,"frozenset({'NoDisco', 'NoSubscr', 'Female', 'NoPromo'})"
+114,0.22413793103448276,"frozenset({'YesPromo', 'YesDisco', 'Male', 'M'})"
+115,0.25862068965517243,"frozenset({'NoDisco', 'NoSubscr', 'M', 'NoPromo'})"
+116,0.24630541871921183,"frozenset({'NoDisco', 'NoSubscr', 'Male', 'NoPromo'})"
+117,0.27832512315270935,"frozenset({'YesPromo', 'YesDisco', 'Male', 'YesSubscr'})"

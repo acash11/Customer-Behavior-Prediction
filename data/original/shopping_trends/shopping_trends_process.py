@@ -1,13 +1,8 @@
 #Process shopping_trends.csv
 
 import pandas as pd
-import random
 
 import numpy as np
-
-
-
-
 
 df = pd.read_csv('shopping_trends.csv')
 

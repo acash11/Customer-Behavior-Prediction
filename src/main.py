@@ -65,7 +65,7 @@ if __name__ == '__main__':
     max_siloutte = -2, 0
 
     #Search for k in this range
-    for k in range(2, 5):
+    for k in range(2, 10):
         cluster_list = cbpa.sklearn_ml_kmeans(processed_data, original_data, k)
 
         sil_score = cluster_list[1]
