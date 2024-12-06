@@ -108,7 +108,7 @@ if __name__ == '__main__':
     max_silhouette = -2, 0
     besthold = 0
 
-    for threshold in range(2, 10): #10 is arbitrary... just try numbers until you're happy
+    for threshold in range(2, 10): #10 is arbitrary
         cluster_list = cbpa.sklearn_ml_agglomerative(processed_data, original_data, threshold)
         sil_score = cluster_list[1]
         if sil_score > max_silhouette[0]:

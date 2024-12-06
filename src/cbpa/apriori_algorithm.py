@@ -22,6 +22,6 @@ def apriori_algorithm(dfs, threshold):
         #print(df)
         #print(apriori(df, min_support=0.3, use_colnames=True))
         frequent_itemsets = apriori(df, min_support=threshold, use_colnames=True)
-        ar = association_rules(frequent_itemsets, metric="confidence", min_threshold=0.5, num_itemsets=len(df))
+        ar = association_rules(frequent_itemsets, metric="confidence", min_threshold=0.35, num_itemsets=len(df))
         return {'fItemSets': frequent_itemsets, 'AR': ar}
 

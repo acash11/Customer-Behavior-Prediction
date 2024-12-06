@@ -9,7 +9,7 @@ import pandas as pd
 def sklearn_ml_agglomerative(df, original_data, threshold):
     df = df.drop('Customer ID', axis='columns')
     #apply agglomerative clustering - ward linkage method is the default
-    agglomerative = AgglomerativeClustering(n_clusters=threshold, linkage='ward', compute_distances=True) #compute distances false by default. dont let it be
+    agglomerative = AgglomerativeClustering(n_clusters=threshold, linkage='ward', compute_distances=True) 
     agglomer = agglomerative.fit(df)
     
     #make sure processed data was clustered
@@ -18,12 +18,10 @@ def sklearn_ml_agglomerative(df, original_data, threshold):
     #print(cluster_labels)
     df['Cluster'] = cluster_labels
     original_data['Cluster'] = cluster_labels
-    #print('ccc', df)
 
     sil_score = silhouette_score(df, cluster_labels)
     db_score = davies_bouldin_score(df, cluster_labels)
 
-    #shunt into clusters
     cluster_dfs = [original_data[original_data['Cluster'] == i] for i in range(len(set(cluster_labels)))]
 
     return(cluster_dfs, sil_score, db_score, agglomer)
